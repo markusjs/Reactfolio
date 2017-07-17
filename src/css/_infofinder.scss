@@ -1,0 +1,91 @@
+.demo {
+  * {
+    outline: none !important;
+  }
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2%;
+  padding-bottom: 20px;
+  .title {
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "STHeiti", "SimSun", "Segoe UI", AppleSDGothicNeo-Medium, 'Malgun Gothic', Arial, freesans, sans-serif;
+    font-size: 2.5rem;
+  }
+  .base {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .columns {
+      margin: 0 17px;
+    }
+  }
+  label {
+    margin-left: 25px;
+  }
+  #title-bar {
+    height: 50px;
+  }
+  img.icons {
+    padding-top: 17px;
+    width: 50px;
+    &.wiki {
+      margin-top: 10px;
+    }
+  }
+  input[type="text"] {
+    flex-grow: 100;
+    outline: none;
+    height: 60px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 8px;
+    margin-top: 10px;
+    top: 15px;
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 2em;
+  }
+  .columns {
+    margin-bottom: 20px !important;
+  }
+  button {
+    &:hover {
+      background-color: rgb(200, 200, 200);
+    }
+    &:focus {
+      outline: none;
+
+    }
+    &:active {
+      background-color: rgb(220, 220, 220);
+    }
+    background-color: white;
+    box-shadow: none;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    width: 15%;
+    height: 40px;
+    img {
+      height: 80%;
+    }
+  }
+  input[type="button"] {
+    height: 50px;
+    font-size: 2em;
+    border: 1px solid rgb(50, 50, 50);
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 0 10px 0 10px;
+    background: none;
+    margin-top: 12px;
+  }
+  .src-btn {
+    margin-top: 20px;
+    text-decoration: none;
+  }
+}
+.div {
+  height: 30px;
+}

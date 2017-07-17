@@ -1,0 +1,32 @@
+.Projects
+  .cards
+    a
+      text-decoration: none
+    $border-color: #cdcdcd
+    .card
+
+      box-shadow: none !important
+      //border: 1px solid #000
+      outline: 1px dashed #fff
+      outline-offset: -10px
+      .image
+        background: none
+      .content
+        border-left: 1px solid $border-color
+        border-right: 1px solid $border-color
+      .extra
+        border-bottom: 1px solid $border-color
+.project
+  @include bp(small)
+    margin-top: 40px
+  a.label
+    text-decoration: none
+.card.Dubi
+  .image
+    height: 265px !important
+
+.project
+  .images
+    img
+      margin-bottom: 10px
+      transition: width .5s ease-in-out
