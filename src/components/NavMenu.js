@@ -21,8 +21,8 @@ class RightMenu extends Component {
             <div className={this.props.visible ? 'active navmenu' : 'navmenu'}>
                 <div className="navmenu-wrap">
                     <div className="intro-splash">
-                        <div>Hei! Jeg heter
-                        <h1>Markus Sørem</h1>
+                        <div>
+                            <h1>Markus Sørem</h1>
                         </div>
                         <p>Jeg designer og utvikler
                         <br/> digitale opplevelser

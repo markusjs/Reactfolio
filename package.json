@@ -6,13 +6,10 @@
     "history": "^4.6.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-highlight": "^0.10.0",
     "react-router-dom": "^4.1.1",
     "semantic-ui-css": "^2.2.10",
     "semantic-ui-react": "^0.70.0",
-    "typeface-lora": "0.0.22",
-    "typeface-merriweather": "0.0.29",
-    "typeface-open-sans": "0.0.29"
+    "typeface-merriweather": "0.0.29"
   },
   "devDependencies": {
     "react-scripts": "1.0.10"
