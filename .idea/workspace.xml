@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="479efb26-4303-4483-9d0d-235ca08c4273" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/About.js" afterPath="$PROJECT_DIR$/src/components/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Backbtn.js" afterPath="$PROJECT_DIR$/src/components/Backbtn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/BodyScroll.js" afterPath="$PROJECT_DIR$/src/components/BodyScroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home.js" afterPath="$PROJECT_DIR$/src/components/Home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NavMenu.js" afterPath="$PROJECT_DIR$/src/components/NavMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Projects.js" afterPath="$PROJECT_DIR$/src/components/Projects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/RightMenu.js" afterPath="$PROJECT_DIR$/src/components/RightMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/projects/Dubi.js" afterPath="$PROJECT_DIR$/src/components/projects/Dubi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/projects/InfoFinder.js" afterPath="$PROJECT_DIR$/src/components/projects/InfoFinder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_header.sass" afterPath="$PROJECT_DIR$/src/css/_header.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+            <state relative-caret-position="1149">
+              <caret line="93" column="42" lean-forward="true" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <element signature="e#215#257#0" expanded="true" />
@@ -114,24 +106,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/_header.sass">
+      <file leaf-file-name="InfoFinder.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/projects/InfoFinder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding />
+            <state relative-caret-position="188">
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfoFinder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/projects/InfoFinder.js">
+      <file leaf-file-name="Dubi.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/projects/Dubi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/components/projects/Tags.js" />
         <option value="$PROJECT_DIR$/src/components/Mobile.js" />
         <option value="$PROJECT_DIR$/src/components/Topmenu.js" />
-        <option value="$PROJECT_DIR$/src/components/projects/Dubi.js" />
         <option value="$PROJECT_DIR$/src/components/InfoFinder.js" />
         <option value="$PROJECT_DIR$/src/css/_projects.sass" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -207,13 +198,14 @@
         <option value="$PROJECT_DIR$/src/css/_header.sass" />
         <option value="$PROJECT_DIR$/src/components/RightMenu.js" />
         <option value="$PROJECT_DIR$/src/components/Backbtn.js" />
-        <option value="$PROJECT_DIR$/src/components/projects/InfoFinder.js" />
         <option value="$PROJECT_DIR$/src/components/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/BodyScroll.js" />
         <option value="$PROJECT_DIR$/src/components/NavMenu.js" />
         <option value="$PROJECT_DIR$/src/components/About.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/projects/Dubi.js" />
+        <option value="$PROJECT_DIR$/src/components/projects/InfoFinder.js" />
       </list>
     </option>
   </component>
@@ -362,7 +354,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="Info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;ab&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;App.&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Nav&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/NavMenu.js&#10;Body&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/BodyScroll.js&#10;hom&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;back&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Backbtn.js&#10;right&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_projects.sass&#10;Top&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Topmenu.js&#10;Tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Right&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_mobile.sass&#10;Back&#9;null&#9;null&#10;tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Infi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Tags&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Rig&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;pr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Project.js&#10;abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;Proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Src&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Inf&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Pri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/node_modules/react-dom/lib/lowPriorityWarning.js&#10;du&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Sr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;App&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Hobb&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Hobby.js&#10;Abou&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;NavM&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/NavMenu.js&#10;p&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;app.&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;ap&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Mo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;Ri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;mob&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js" />
+    <property name="SearchEverywhereHistoryKey" value="Du&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;I&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;ab&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;App.&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Nav&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/NavMenu.js&#10;Body&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/BodyScroll.js&#10;hom&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;back&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Backbtn.js&#10;right&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_projects.sass&#10;Top&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Topmenu.js&#10;Tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Right&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_mobile.sass&#10;Back&#9;null&#9;null&#10;tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Infi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Tags&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Rig&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;pr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Project.js&#10;abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;Proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Src&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Inf&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Pri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/node_modules/react-dom/lib/lowPriorityWarning.js&#10;du&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Sr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;App&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Hobb&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Hobby.js&#10;Abou&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;NavM&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/NavMenu.js&#10;p&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;app.&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;ap&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Mo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;Ri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -480,12 +472,12 @@
       <workItem from="1499368372115" duration="17000" />
       <workItem from="1499368401265" duration="13627000" />
       <workItem from="1499456651899" duration="32895000" />
-      <workItem from="1499638923092" duration="42185000" />
+      <workItem from="1499638923092" duration="42473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138832000" />
+    <option name="totallyTimeSpent" value="139120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,14 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects/Dubi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/InfoFinder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -928,16 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects/InfoFinder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/About.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -948,13 +922,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        <state relative-caret-position="1149">
+          <caret line="93" column="42" lean-forward="true" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <element signature="e#215#257#0" expanded="true" />
             <element signature="e#447#483#0" expanded="true" />
             <element signature="e#581#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/projects/Dubi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/projects/InfoFinder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

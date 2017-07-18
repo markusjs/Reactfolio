@@ -15,6 +15,7 @@ import infoGif from '../../img/infofinder.gif'
 class InfoFinder extends Component {
     componentDidMount() {
         this.props.toggleBackBtn(true);
+        window.scrollTo(0, 0);
     }
     render() {
         console.log(this.props.tags);

@@ -16,6 +16,7 @@ class Dubi extends Component {
     }
     componentDidMount() {
         this.props.toggleBackBtn(true);
+        window.scrollTo(0, 0);
     }
     handleZoom(e) {
         if(e.target.className.match('login')) {
