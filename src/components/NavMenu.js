@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import {
-    Link,
     NavLink
 } from 'react-router-dom'
-import { Flag } from 'semantic-ui-react'
 class RightMenu extends Component {
     handleClick(e) {
         this.props.toggleMenu(false);

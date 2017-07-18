@@ -3,7 +3,7 @@ import {
     Link
 } from 'react-router-dom'
 
-import { Grid, Menu, Button, Icon } from 'semantic-ui-react'
+import { Grid, Button, Icon } from 'semantic-ui-react'
 
 
 

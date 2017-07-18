@@ -21,11 +21,11 @@ class About extends Component {
     }
     toggleBackBtn(e) {
         this.props.toggleBackBtn(e);
-        // console.log("Toggle back btn");
-        // this.context.router.goBack();
+    }
+    componentDidMount() {
+        this.props.toggleBackBtn(false);
     }
     render() {
-        console.log(this.context.router);
         return (
             <div className="About">
                 <Container text textAlign="left">
@@ -35,7 +35,9 @@ class About extends Component {
                     <div className="textwrap">
                         <h3>Personlig</h3>
                         <p>Jeg er {String(age)} år gammel og kommer fra Tromsø. Jeg bor for tiden i Oslo og tar en master i <a href="www.uio.no/studier/program/inf-design-master/">Informatikk: design, bruk, interaksjon </a>. </p>
-                        <p>På fritiden bruker jeg mye tid på <Link to="/hobby">hobbyprosjekter</Link>. Jeg er også interessert i kultur og er ofte på teater og konserter.</p>
+                        <p>På fritiden bruker jeg mye tid på hobbyprosjekter.
+                            {/*<Link to="/hobby">hobbyprosjekter</Link>. */}
+                            &nbsp;Jeg er også interessert i kultur og er ofte på teater og konserter.</p>
                         <Image src={Markus} size='small' shape="circular"></Image>
                         <div className="social-icons">
                             <Button as="a" href="https://www.linkedin.com/in/markusjs" target="_blank" circular icon='linkedin' />

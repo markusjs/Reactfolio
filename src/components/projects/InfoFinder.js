@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Image, Grid, Message, Divider } from 'semantic-ui-react'
+import { Image, Message, Divider } from 'semantic-ui-react'
 
 import SrcElement from './SrcElement';
 import Tags from './Tags';

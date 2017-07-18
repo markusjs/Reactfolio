@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Projects from './../components/Projects'
-import { Container, Header} from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 
 

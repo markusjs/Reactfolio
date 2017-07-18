@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import {
     Route,
-    Switch,
-    Link
+    Switch
 } from 'react-router-dom'
 
 import 'semantic-ui-css/semantic.min.css';
@@ -25,15 +24,18 @@ import Projects from './components/Projects'
 import InfoFinder from './components/projects/InfoFinder'
 import Dubi from './components/projects/Dubi'
 
-
-import { Grid, Container, Menu, Header, Icon } from 'semantic-ui-react'
+// Components from the Semantic-UI React Library
+import { Grid, Container, Header } from 'semantic-ui-react'
 
 class App extends Component {
     constructor() {
     super();
       this.state = {
+          // if the splashmenu should show or not
           navmenuVisible: true,
+          // if the backbtn should show or not
           backBtnVisible: false,
+          // if the scroll should be disabled or not
           disablescroll: true
       }
       this.toggleMenu = this.toggleMenu.bind(this);
@@ -58,8 +60,9 @@ class App extends Component {
     return (
         <Grid.Column className={this.state.navmenuVisible ? "active main-wrap" : "main-wrap"}>
             <Topmenu toggleMenu={this.toggleMenu.bind(this)} navmenuVisible={this.state.navmenuVisible} toggleBackBtn={this.toggleBackBtn.bind(this)} backBtnVisible={this.state.backBtnVisible} />
+            {/*makes it possible to disable the scroll with a state*/}
             <BodyScroll disablescroll={this.state.disablescroll}>
-                <p>{this.state.disablescroll}</p>
+                <div></div>
             </BodyScroll>
             <NavMenu visible={this.state.navmenuVisible} toggleMenu={this.toggleMenu.bind(this)}/>
             <Grid>
@@ -81,17 +84,15 @@ class App extends Component {
                             <Route path='/Dubi' render={(props) => (
                                 <Dubi tags={["konsept", "design", "front-end"]} toggleBackBtn={this.toggleBackBtn.bind(this)}/>
                             )}/>
-                            <Route path='/projects/InfoFinder' render={(props) => (
-                                <InfoFinder tags={["design", "hobby", "utvikling"]}/>
-                            )}/>
+
+                            {/*404 not found*/}
                             <Route render={function (e) {
                                 return <div className="centered">
                                     <div>
-                                        <Header textAlign="center" icon="help" content="404 "></Header>
-                                        <a href="http://www.sorem.no">Gå tilbake til hjemmesiden</a>
+                                        <Header textAlign="center" icon="help" content="404 ">Oops. Ingenting her. <br/></Header>
+                                        <a href="http://www.sorem.no">Gå tilbake til forsiden</a>
                                     </div>
                                 </div>
-
                             }}/>
                         </Switch>
                     </Container>

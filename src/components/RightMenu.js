@@ -3,9 +3,6 @@ import { Button } from 'semantic-ui-react'
 
 
 class RightMenu extends Component {
-    constructor() {
-        super();
-    }
     toggleVisibility(e) {
         this.props.toggleMenu();
         console.log(this.props.visible);

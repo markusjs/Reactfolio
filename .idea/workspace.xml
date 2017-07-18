@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="479efb26-4303-4483-9d0d-235ca08c4273" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/About.js" afterPath="$PROJECT_DIR$/src/components/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Backbtn.js" afterPath="$PROJECT_DIR$/src/components/Backbtn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/BodyScroll.js" afterPath="$PROJECT_DIR$/src/components/BodyScroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home.js" afterPath="$PROJECT_DIR$/src/components/Home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NavMenu.js" afterPath="$PROJECT_DIR$/src/components/NavMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Projects.js" afterPath="$PROJECT_DIR$/src/components/Projects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/RightMenu.js" afterPath="$PROJECT_DIR$/src/components/RightMenu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/projects/InfoFinder.js" afterPath="$PROJECT_DIR$/src/components/projects/InfoFinder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_header.sass" afterPath="$PROJECT_DIR$/src/css/_header.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,103 +27,99 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+            <state relative-caret-position="140">
+              <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#225#267#0" expanded="true" />
-                <element signature="e#457#493#0" expanded="true" />
-                <element signature="e#591#648#0" expanded="true" />
+                <element signature="e#215#257#0" expanded="true" />
+                <element signature="e#447#483#0" expanded="true" />
+                <element signature="e#581#638#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/About.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_projects.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/_projects.sass">
+      <file leaf-file-name="RightMenu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RightMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_mobile.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/_mobile.sass">
+      <file leaf-file-name="Backbtn.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Backbtn.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-692">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavMenu.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NavMenu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/NavMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="45">
+              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projects.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Projects.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="original_README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/original_README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="BodyScroll.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BodyScroll.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/_header.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,8 +127,8 @@
       <file leaf-file-name="InfoFinder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/projects/InfoFinder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="158">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -174,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/css/style.css" />
         <option value="$PROJECT_DIR$/src/components/SoremSidebar.js" />
         <option value="$PROJECT_DIR$/src/css/_sidebar.sass" />
-        <option value="$PROJECT_DIR$/src/components/BodyScroll.js" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/src/components/Hobby.js" />
         <option value="$PROJECT_DIR$/src/css/_about.sass" />
@@ -185,31 +188,32 @@
         <option value="$PROJECT_DIR$/src/css/_infofinder.scss" />
         <option value="$PROJECT_DIR$/src/components/Bakbtn.js" />
         <option value="$PROJECT_DIR$/src/components/projects/Project.js" />
-        <option value="$PROJECT_DIR$/src/components/About.js" />
         <option value="$PROJECT_DIR$/src/components/TopMenu.js" />
         <option value="$PROJECT_DIR$/src/components/Projectcard.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/RightMenu.js" />
         <option value="$PROJECT_DIR$/src/css/_2_mobile.sass" />
-        <option value="$PROJECT_DIR$/src/css/_header.sass" />
         <option value="$PROJECT_DIR$/src/css/style.sass" />
         <option value="$PROJECT_DIR$/src/css-kopi/_projects.sass" />
         <option value="$PROJECT_DIR$/src/components/projects/Tags.js" />
-        <option value="$PROJECT_DIR$/src/components/Backbtn.js" />
         <option value="$PROJECT_DIR$/src/components/Mobile.js" />
-        <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/src/components/Topmenu.js" />
-        <option value="$PROJECT_DIR$/src/components/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/projects/Dubi.js" />
         <option value="$PROJECT_DIR$/src/components/InfoFinder.js" />
-        <option value="$PROJECT_DIR$/src/components/projects/InfoFinder.js" />
         <option value="$PROJECT_DIR$/src/css/_projects.sass" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/css/_mobile.sass" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/css/_header.sass" />
+        <option value="$PROJECT_DIR$/src/components/RightMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/Backbtn.js" />
+        <option value="$PROJECT_DIR$/src/components/projects/InfoFinder.js" />
+        <option value="$PROJECT_DIR$/src/components/Projects.js" />
+        <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/BodyScroll.js" />
         <option value="$PROJECT_DIR$/src/components/NavMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/About.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -358,7 +362,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_projects.sass&#10;Top&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Topmenu.js&#10;back&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Backbtn.js&#10;Tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Right&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_mobile.sass&#10;Back&#9;null&#9;null&#10;tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Infi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Tags&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Rig&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;pr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Project.js&#10;proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;Proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Src&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Inf&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Pri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/node_modules/react-dom/lib/lowPriorityWarning.js&#10;du&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Sr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;App&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Hobb&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Hobby.js&#10;Abou&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;NavM&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/NavMenu.js&#10;p&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;app.&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;ab&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;ap&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;hom&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;Mo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;Ri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;mob&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js" />
+    <property name="SearchEverywhereHistoryKey" value="Info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;ab&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;App.&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Nav&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/NavMenu.js&#10;Body&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/BodyScroll.js&#10;hom&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;back&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Backbtn.js&#10;right&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_projects.sass&#10;Top&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Topmenu.js&#10;Tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Right&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/css/_mobile.sass&#10;Back&#9;null&#9;null&#10;tag&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Infi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Pro&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Tags&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Tags.js&#10;Rig&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;pr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Project.js&#10;abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;info&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;Proj&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;dubi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Src&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Inf&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/InfoFinder.js&#10;Proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projectcard.js&#10;Pri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/node_modules/react-dom/lib/lowPriorityWarning.js&#10;du&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;Sr&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/SrcElement.js&#10;Dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;dub&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/projects/Dubi.js&#10;App&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Hobb&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Hobby.js&#10;Abou&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Abo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/About.js&#10;Mobi&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;NavM&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/NavMenu.js&#10;p&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;home&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Home.js&#10;app.&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;proje&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Projects.js&#10;ap&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/App.js&#10;Mo&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js&#10;Ri&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/RightMenu.js&#10;mob&#9;FILE&#9;file:///Users/Markus/WebstormProjects/reactfolio/src/components/Mobile.js" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -476,12 +480,12 @@
       <workItem from="1499368372115" duration="17000" />
       <workItem from="1499368401265" duration="13627000" />
       <workItem from="1499456651899" duration="32895000" />
-      <workItem from="1499638923092" duration="40663000" />
+      <workItem from="1499638923092" duration="42185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137310000" />
+    <option name="totallyTimeSpent" value="138832000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BodyScroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -703,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/projects/Project.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -741,24 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
           <caret line="177" column="12" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="177" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RightMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -805,14 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Backbtn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Topmenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -821,28 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Projectcard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Projects.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="37" column="84" lean-forward="false" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
           <folding />
         </state>
       </provider>
@@ -863,16 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/projects/InfoFinder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_projects.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -886,19 +821,6 @@
         <state relative-caret-position="435">
           <caret line="40" column="1" lean-forward="false" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#225#267#0" expanded="true" />
-            <element signature="e#457#493#0" expanded="true" />
-            <element signature="e#591#648#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -942,17 +864,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RightMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Backbtn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Projects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BodyScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NavMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="45">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/projects/InfoFinder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="63" column="12" lean-forward="false" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#215#257#0" expanded="true" />
+            <element signature="e#447#483#0" expanded="true" />
+            <element signature="e#581#638#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

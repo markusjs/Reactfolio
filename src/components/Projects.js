@@ -4,7 +4,6 @@ import Projectcard from './../components/Projectcard'
 
 import InfoFinderImg from './../img/infofinder.png'
 import dubiImg from './../img/dubi_ipad.png'
-import Backbtn from './Backbtn'
 
 import { Card, Container, Header } from 'semantic-ui-react'
 

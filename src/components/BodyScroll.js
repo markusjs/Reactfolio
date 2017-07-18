@@ -1,9 +1,6 @@
 import React from 'react'
 
 class BodyScroll extends React.Component {
-    static propTypes = {
-        disablescroll: React.PropTypes.bool
-    }
     static defaultProps = {
         disablescroll: false
     }
