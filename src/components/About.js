@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 import { Container, Header, Image, Progress, Button, Accordion, List } from 'semantic-ui-react'
 
+import IntroHeader from './../components/IntroHeader'
+
 import Markus from './../img/markus_balkong.jpg'
 let d = new Date();
 let month = d.getMonth();
@@ -27,9 +29,10 @@ class About extends Component {
     }
     render() {
         return (
-            <div className="About">
+            <Container text className="About">
+                <IntroHeader/>
                 <Container text textAlign="left">
-                    <Header as="h2" textAlign='center'>
+                    <Header as="h2" textAlign='center' className="intro-header">
                         <h2>Om Meg</h2>
                     </Header>
                     <div className="textwrap">
@@ -50,40 +53,8 @@ class About extends Component {
                         <p>Jeg har også god forståelse for kode, og kan produsere prototyper i HTML/CSS og JavaScript, samt at jeg kan lage Android-apper med Java og desktop-apper i ElectronJS.</p>
                         <p>Jeg er nysgjerrig, og synes det er veldig gøy å teste ut ny teknologi!</p>
                         <h3>Teknologier (basert på erfaring)</h3>
-                        <Accordion styled>
-                            <Accordion.Title className="">
-                                <div className="dropdown icon"></div>
-                                Utvikling
-                            </Accordion.Title>
-                            <Accordion.Content>
-                                <List.Item>
-                                    ReactJS
-                                    <Progress percent={35} progress/>
-                                </List.Item>
-                                <List.Item>
-                                    Java
-                                    <Progress percent={60} progress/>
-                                </List.Item>
-                                <List.Item>
-                                    Javascript / Jquery
-                                    <Progress percent={90} progress/>
-                                </List.Item>
-                                <List.Item>
-                                    Python
-                                    <Progress percent={20} progress/>
-                                </List.Item>
-                                <List.Item>
-                                    HTML / CSS
-                                    <Progress percent={90} progress/>
-                                </List.Item>
-                                <List.Item>
-                                    Angular
-                                    <Progress percent={35} progress/>
-                                </List.Item>
-                            </Accordion.Content>
-                        </Accordion>
                         <br/>
-                        <Accordion styled>
+                        <Accordion styled activeIndex={0}>
                             <Accordion.Title className="">
                                 <div className="dropdown icon"></div>
                                 Prototyping / Design
@@ -115,9 +86,42 @@ class About extends Component {
                                 </List.Item>
                             </Accordion.Content>
                         </Accordion>
+                        <br/>
+                        <Accordion styled>
+                            <Accordion.Title className="">
+                                <div className="dropdown icon"></div>
+                                Utvikling / implementering
+                            </Accordion.Title>
+                            <Accordion.Content>
+                                <List.Item>
+                                    ReactJS
+                                    <Progress percent={35} progress/>
+                                </List.Item>
+                                <List.Item>
+                                    Java
+                                    <Progress percent={60} progress/>
+                                </List.Item>
+                                <List.Item>
+                                    Javascript / Jquery
+                                    <Progress percent={90} progress/>
+                                </List.Item>
+                                <List.Item>
+                                    Python
+                                    <Progress percent={20} progress/>
+                                </List.Item>
+                                <List.Item>
+                                    HTML / CSS
+                                    <Progress percent={90} progress/>
+                                </List.Item>
+                                <List.Item>
+                                    Angular
+                                    <Progress percent={35} progress/>
+                                </List.Item>
+                            </Accordion.Content>
+                        </Accordion>
                     </div>
                 </Container>
-            </div>
+            </Container>
         );
     }
 }

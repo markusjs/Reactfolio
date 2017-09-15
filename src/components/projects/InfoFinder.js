@@ -9,7 +9,7 @@ import wiki from '../../img/icons/wiki.png'
 import imdb from './../../img/icons/imdb.png'
 import google from './../../img/icons/google.png'
 import srcbtn from './../../img/icons/128x128.png'
-import infoGif from '../../img/infofinder.gif'
+import infoGif from '../../img/infofinder/infofinder.gif'
 
 
 class InfoFinder extends Component {

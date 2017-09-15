@@ -13,7 +13,7 @@ const history = createBrowserHistory();
 
 
 ReactDOM.render(
-    <Router history={history}>
+    <Router history={history} baseame={'portfolio'}>
         <App/>
     </Router>,
     document.getElementById('root'));

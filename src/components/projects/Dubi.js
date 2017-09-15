@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Header, Image, Message, Divider, List } from 'semantic-ui-react'
 import Tags from './Tags';
 
-import dubiImg from './../../img/dubi_ipad.png'
+import dubiImg from './../../img/dubi/dubi_ipad.png'
 import dubiLogin from './../../img/dubi/dubi-login.png'
 import dubiNewQuiz from './../../img/dubi/dubi-new-quiz.png'
 import dubiNewQuizMark from './../../img/dubi/dubi-new-quiz-mark.png'

@@ -26,17 +26,18 @@ import Dubi from './components/projects/Dubi'
 
 // Components from the Semantic-UI React Library
 import { Grid, Container, Header } from 'semantic-ui-react'
+import Turistopplevelse from "./components/projects/Turistopplevelse";
 
 class App extends Component {
     constructor() {
     super();
       this.state = {
           // if the splashmenu should show or not
-          navmenuVisible: true,
+          navmenuVisible: false,
           // if the backbtn should show or not
           backBtnVisible: false,
           // if the scroll should be disabled or not
-          disablescroll: true
+          disablescroll: false
       }
       this.toggleMenu = this.toggleMenu.bind(this);
       this.toggleBackBtn = this.toggleBackBtn.bind(this);
@@ -77,6 +78,9 @@ class App extends Component {
                             )}/>
                             <Route exact path='/about' render={(props) => (
                                 <About toggleBackBtn={this.toggleBackBtn.bind(this)}/>
+                            )}/>
+                            <Route path='/Turistopplevelse' render={(props) => (
+                                <Turistopplevelse tags={["skoleprosjekt", "metode", "innsikt", "grafisk"]} toggleBackBtn={this.toggleBackBtn.bind(this)}/>
                             )}/>
                             <Route path='/InfoFinder' render={(props) => (
                                 <InfoFinder tags={["design", "hobby", "utvikling"]} toggleBackBtn={this.toggleBackBtn.bind(this)}/>

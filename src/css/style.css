@@ -20,6 +20,9 @@ body {
 .intro-header {
   z-index: 200; }
 
+.markusheader {
+  z-index: 1000; }
+
 .hide {
   visibility: hidden; }
 
@@ -47,25 +50,31 @@ code {
     .intro-splash h1 .sub.header {
       color: white !important; }
 
+.intro-header {
+  margin-bottom: 30px; }
+
 .mobile-toggle {
-  width: 100%;
+  width: 10%;
   padding: 10px; }
   .mobile-toggle .menu {
+    top: -90px !important;
     padding: 10px;
-    background-color: transparent;
+    background-color: red;
     box-shadow: none;
     border-bottom: none;
     display: flex; }
   .mobile-toggle .button {
+    top: 100px;
     width: 50px;
     height: 50px;
     border-radius: 50%; }
   .mobile-toggle .right {
+    background-color: transparent;
     position: absolute;
     height: 50px;
     width: 50px;
     right: 10px;
-    top: 10px;
+    top: 100px !important;
     padding-top: 0;
     padding-right: 0; }
     .mobile-toggle .right:hover .circle {
@@ -115,6 +124,8 @@ code {
     .mobile-toggle .burger-btn:focus {
       background-color: black; }
   .mobile-toggle .back-btn {
+    position: absolute;
+    top: 100px;
     transition: transform 0.3s ease-in-out; }
     .mobile-toggle .back-btn:hover {
       transform: scale(1.2); }
@@ -174,9 +185,9 @@ code {
     .navmenu a:not(.contact) {
       font-size: 3rem;
       text-decoration: none;
-      font-family: Merriweather; }
+      font-family: Merriweather;
+      text-decoration: underline; }
       .navmenu a:not(.contact):hover {
-        text-decoration: underline;
         transform: scale(1.05); }
     .navmenu a.contact {
       width: 130px;
@@ -226,6 +237,9 @@ code {
   .Projects .cards .card .extra {
     border-bottom: 1px solid #cdcdcd; }
 
+.intro-header {
+  margin-top: 10px !important; }
+
 @media only screen and (max-width: 40em) {
   .project {
     margin-top: 40px; } }
@@ -238,6 +252,15 @@ code {
 .project .images img {
   margin-bottom: 10px;
   transition: width 0.5s ease-in-out; }
+.project .appscreens {
+  display: flex; }
+  .project .appscreens .app {
+    height: 0%;
+    width: 33%; }
+
+.extra.content .label {
+  margin-bottom: 3px !important;
+  margin-left: 0 !important; }
 
 .demo {
   border: 1px solid #c8c8c8;
